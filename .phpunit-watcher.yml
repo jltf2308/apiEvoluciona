@@ -1,0 +1,12 @@
+watch:
+  directories:
+    - app
+    - routes
+    - tests
+    - database
+  exclude:
+    - lib
+  fileMask: '*.php'
+  ignoreDotFiles: true
+  ignoreVCS: true
+  ignoreVCSIgnored: false
